@@ -1,5 +1,9 @@
 # pytorch-resnet-implement
 
+- Reference
+    1. pytorch 공식 resnet 코드(https://pytorch.org/vision/0.8/_modules/torchvision/models/resnet.html)
+    2. resnet 논문(HE, Kaiming, et al. Deep residual learning for image recognition. In: Proceedings of the IEEE conference on computer vision and pattern recognition. 2016. p. 770-778.)
+
 - 추후 개선점
     1. 이미지/라벨 입력 -> 전처리 -> dataloader 탑재 -> 학습 -> 모델 저장 및 학습 결과 시각화까지 일련의 과정 자동화
     2. 가중치 초기화 기능 추가
