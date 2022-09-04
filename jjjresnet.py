@@ -3,7 +3,7 @@ from resnetblock import plainblock, bottleneckblock
 
 class resnet(nn.Module):
     # 초기값으로 데이터의 클래스 개수, conv block 유형, 각 conv block의 개수를 받음
-    # resnet의 경우 layer의 개수가 18, 34일 경우 plainblock으로, layer의 개수가 50개 이상의 모델일 경우 bottleneckblock으로 작성
+    # resnet의 경우 block의 개수가 18, 34일 경우 plainblock으로, layer의 개수가 50개 이상의 모델일 경우 bottleneckblock으로 작성
     def __init__(self, num_classes, blocktype, blocknumlist):
         super(resnet, self).__init__()
         self.in_channel = 64
