@@ -14,7 +14,3 @@
        - 이미 github 등에 구현되 있는 모델 중에 논문 검증용으로만 만들어져서 있는 모델들이 많아 써먹기가 생각보다 힘들다.
     <br><br>
     2. 기존 구조와 유사해도 좋으니까 나만의 모델 만들어보기
-<br><br>
-- 최최종 목표
-    1. tensorflow, pytorch 손발처럼 다루기
-    2. tensorflow2pytorch, pytorch2tensorflow 포팅 시스템 만들어보기
